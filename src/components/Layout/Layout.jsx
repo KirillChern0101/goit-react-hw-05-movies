@@ -19,7 +19,7 @@ const Layout = () => {
         <Header>
           <Logo>
             <IconLogo />
-            TMDB
+            The_MDB
           </Logo>
           <nav>
             <Links to="/" end>

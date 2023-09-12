@@ -14,14 +14,14 @@ export const Form = styled.form`
     width: 250px;
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid #064e8a;
+    border-bottom: 4px solid white;
     outline: none;
   }
 `;
 
 export const Icon = styled(FcSearch)`
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   position: relative;
   right: 56px;
   z-index: 1;

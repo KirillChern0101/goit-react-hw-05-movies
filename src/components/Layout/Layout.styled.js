@@ -35,17 +35,12 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px; /* Увеличено расстояние между кнопками */
+  gap: 20px;
   padding: 8px 0;
   margin-bottom: 16px;
   border-bottom: none;
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.5
-  ); /* Обновлен цвет фона с прозрачностью */
-  color: #333; /* Обновлен цвет текста */
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #333;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 16px;
@@ -69,7 +64,7 @@ export const Links = styled(NavLink)`
 
   &.active {
     color: white;
-    background-color: #064e8a;
+    background-color: #007bff;
   }
 `;
 

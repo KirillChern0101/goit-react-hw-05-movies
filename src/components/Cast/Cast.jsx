@@ -46,7 +46,9 @@ const Cast = () => {
           </List>
         </div>
       )}
-      {cast.length === 0 && <div>We don't have any cast for this movie.</div>}
+      {cast.length === 0 && (
+        <div>We don't have any cast for this movie :( </div>
+      )}
     </>
   );
 };
